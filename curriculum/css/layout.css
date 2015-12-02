@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+article {
+  /* I'm really not a fan of absolute values. This setting can be interpreted
+  thus: "I don't know how to make things flush against containers, so give me
+  a margin big enough to write stuff there." This value is then referenced
+  later when positioning things that go in the margin. */
+  margin-left: 16ch;
+  max-width: 80ch;
+}
+h3 {
+  margin: initial;
+}
+ul, ol {
+  list-style-type: none;
+  padding: initial;
+}
+li, header {
+  position: relative;
+}
+li > i,
+header > i {
+  position: absolute;
+  left: -16ch;
+}
+li > i {
+  text-align: right;
+  width: 15ch;
+}
+.logo {
+  width: 17ch;
+}
+:not(header) i {
+  color: grey;
+}
