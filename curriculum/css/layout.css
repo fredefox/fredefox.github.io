@@ -22,6 +22,7 @@ li, header {
 }
 .margin {
   position: absolute;
+  top: 0ch;
   left: -16ch;
   text-align: right;
   width: 14ch;

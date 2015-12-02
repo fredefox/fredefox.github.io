@@ -24,3 +24,6 @@ a {
 address {
   font-style: initial;
 }
+p {
+  margin-top: .4em;
+}
