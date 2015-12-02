@@ -11,6 +11,16 @@ header {
 li {
   margin-bottom: 2ch;
 }
+h1 {
+  font-size: xx-large;
+  font-weight: lighter;
+}
 h3 {
   font-size: medium;
+}
+a {
+  color: initial;
+}
+address {
+  font-style: initial;
 }
