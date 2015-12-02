@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url("fonts/Exo2.0-Regular.otf") format("opentype");
+}
 header {
   font-style: initial;
   color: orange;
-  padding-bottom: 2ch;
+  margin-top: 4ch;
+  margin-bottom: 4ch;
 }
 li {
   margin-bottom: 2ch;
+}
+h3 {
+  font-size: medium;
 }

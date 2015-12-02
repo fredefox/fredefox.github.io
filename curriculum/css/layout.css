@@ -20,18 +20,17 @@ ul, ol {
 li, header {
   position: relative;
 }
-li > i,
-header > i {
+.margin {
   position: absolute;
   left: -16ch;
-}
-li > i {
   text-align: right;
-  width: 15ch;
+  width: 14ch;
+  color: grey;
+}
+address img {
+  width: 3ch;
 }
 .logo {
   width: 17ch;
-}
-:not(header) i {
-  color: grey;
+  top: -5ch;
 }
