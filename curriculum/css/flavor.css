@@ -1,9 +1,12 @@
 @font-face {
   font-family: "Exo 2";
-  src: url("fonts/Exo2.0-Regular.otf") format("opentype");
+  src: url("../fonts/Exo2.0-Regular.otf") format("opentype");
 }
 html {
-  font-family: "droid sans";
+  font-family: "Exo 2", "Droid Sans";
+}
+pre, tt, code, samp {
+  font-family: "Droid Mono"
 }
 header {
   font-style: initial;

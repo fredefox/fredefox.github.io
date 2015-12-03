@@ -9,15 +9,15 @@
 path {
   fill:none;
   stroke:darkorange;
-  stroke-width:1px;
+  stroke-width:.4px;
 }
   </style>
     <g id="fox-side">
       <path d="m 18,13 22,23 10,0 M 50,90 48,90 33,69 17,52 27,45 22,44 18,13" />
       <path d="m 22,44 18,-8 m 0,0 10,50" />
-      <path d="m 17,52 22,-2 4.5,7 -7.5,0 -6,-6 -3,-6" />
+      <path d="m 17,52 22,-2 5.3,7.5 -8,0 -6,-6.6 -3.3,-6" />
       <path d="m 17,52 19,13 14,21 -2,4" />
-      <path d="m 36,65 8,-7.5" />
+      <path d="m 36,65 8.3,-7.5" />
       <path d="M 27,45 40,36" />
     </g>
   </defs>
