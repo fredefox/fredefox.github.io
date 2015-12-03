@@ -9,7 +9,7 @@
     <style>
 path {
   fill:none;
-  stroke:orange;
+  stroke:darkorange;
   stroke-width:1px;
 }
   </style>
