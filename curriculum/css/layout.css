@@ -20,6 +20,12 @@ ul, ol {
 li, header {
   position: relative;
 }
+li {
+  margin-top: 2ch;
+  margin-bottom: 2ch;
+}
+/* Put stuff into margin. I'd like to find a more flexible way of doing this
+tthan using abolute positioning */
 .margin {
   position: absolute;
   top: 0ch;

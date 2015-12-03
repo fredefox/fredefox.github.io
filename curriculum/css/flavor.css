@@ -10,12 +10,11 @@ pre, tt, code, samp {
 }
 header {
   font-style: initial;
-  color: darkorange;
   margin-top: 4ch;
   margin-bottom: 4ch;
 }
-li {
-  margin-bottom: 2ch;
+.accent {
+  color: darkorange;
 }
 h1 {
   font-size: xx-large;
