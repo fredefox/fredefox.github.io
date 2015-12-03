@@ -34,6 +34,6 @@ tthan using abolute positioning */
   width: 14ch;
   color: grey;
 }
-address img {
-  width: 3ch;
+.margin img {
+  max-width: 3ch;
 }
