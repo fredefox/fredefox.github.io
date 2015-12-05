@@ -7,7 +7,7 @@ article {
   thus: "I don't know how to make things flush against containers, so give me
   a margin big enough to write stuff there." This value is then referenced
   later when positioning things that go in the margin. */
-  margin-left: 16ch;
+  padding-left: 16ch;
   max-width: 80ch;
 }
 h3 {
@@ -29,11 +29,14 @@ tthan using abolute positioning */
 .margin {
   position: absolute;
   top: 0ch;
-  left: -16ch;
+  left: -15ch;
   text-align: right;
   width: 14ch;
   color: grey;
 }
 .margin img {
   max-width: 3ch;
+}
+.logo {
+  top: -4ch;
 }

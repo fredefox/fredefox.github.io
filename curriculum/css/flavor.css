@@ -20,6 +20,9 @@ h1 {
   font-size: 2em;
   font-weight: lighter;
 }
+h2 {
+  font-weight: initial;
+}
 h3 {
   font-size: 1em;
 }
