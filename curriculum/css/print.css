@@ -1,0 +1,4 @@
+html {
+  /* For some reason the font-sizes in printed media is crazy */
+  font-size: 50%;
+}

@@ -17,11 +17,11 @@ header {
   color: darkorange;
 }
 h1 {
-  font-size: xx-large;
+  font-size: 2em;
   font-weight: lighter;
 }
 h3 {
-  font-size: medium;
+  font-size: 1em;
 }
 a {
   color: initial;

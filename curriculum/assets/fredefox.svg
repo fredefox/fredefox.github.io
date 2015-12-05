@@ -9,7 +9,6 @@
 path {
   fill:none;
   stroke:darkorange;
-  stroke-width:.4px;
 }
   </style>
     <g id="fox-side">
