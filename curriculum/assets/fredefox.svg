@@ -11,15 +11,25 @@ path {
   stroke:darkorange;
 }
   </style>
-    <g id="fox-side">
-      <path d="m 18,13 22,23 10,0 M 50,90 48,90 33,69 17,52 27,45 22,44 18,13" />
+    <g id="face">
+      <path d="m 40,36 10,0" />
+      <!--<path d="m 22,44 -4,-31 22,23" id="ear" />-->
+      <path d="M 50,90 48,90 33,69 17,52 27,45 22,44" />
       <path d="m 22,44 18,-8 m 0,0 10,50" />
       <path d="m 17,52 22,-2 5.3,7.5 -8,0 -6,-6.6 -3.3,-6" />
       <path d="m 17,52 19,13 14,21 -2,4" />
       <path d="m 36,65 8.3,-7.5" />
       <path d="M 27,45 40,36" />
     </g>
+    <path d="m 22,44 -4,-31 22,23" id="ear" />
+    <g id="fox">
+      <use xlink:href="#face" class="left face"/>
+      <use xlink:href="#ear" class="left ear"/>
+      <use xlink:href="#face" class="right face"
+        x="-100" y="0" transform="scale(-1,1)"/>
+      <use xlink:href="#ear" class="right ear"
+        x="-100" y="0" transform="scale(-1,1)"/>
+    </g>
   </defs>
-  <use xlink:href="#fox-side" x="0" y="0"/>
-  <use xlink:href="#fox-side" x="-100" y="0" transform="scale(-1,1)"/>
+  <use xlink:href="#fox" x="0" y="0"/>
 </svg>
