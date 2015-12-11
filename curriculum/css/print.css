@@ -1,4 +1,17 @@
 html {
   /* For some reason the font-sizes in printed media is crazy */
-  font-size: 50%;
+  font-size: 80%;
+}
+h2, li, p, ol {
+  margin-bottom: .2ch;
+  margin-top: .2ch;
+}
+hr {
+  display: none;
+}
+h1, header {
+  margin-top: 0;
+}
+.margin img {
+  max-width: 2ch;
 }
