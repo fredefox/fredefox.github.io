@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  margin: 2em;
 }
 main {
   /* I'm really not a fan of absolute values. This setting can be interpreted
@@ -13,6 +14,9 @@ main {
 h3 {
   margin: initial;
 }
+h2 {
+  margin-bottom: 0.5em;
+}
 ul, ol {
   list-style-type: none;
   padding: initial;
@@ -21,8 +25,8 @@ li, header {
   position: relative;
 }
 li {
-  margin-top: 2ch;
-  margin-bottom: 2ch;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 /* Put stuff into margin. I'd like to find a more flexible way of doing this
 tthan using abolute positioning */

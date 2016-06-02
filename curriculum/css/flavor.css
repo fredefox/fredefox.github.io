@@ -19,8 +19,16 @@ header {
   margin-top: 4ch;
   margin-bottom: 4ch;
 }
+section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 .accent {
   color: darkorange;
+}
+hr {
+  border-color: darkorange;
+  border-style: solid;
 }
 h1 {
   font-size: 2em;
@@ -40,13 +48,4 @@ address {
 }
 p {
   margin-top: .4em;
-}
-hr {
-  border: none;
-  height: 0.05em;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, .2)
-  );
 }
