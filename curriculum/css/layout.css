@@ -1,8 +1,8 @@
-main {
+body {
   display: flex;
   justify-content: center;
 }
-article {
+main {
   /* I'm really not a fan of absolute values. This setting can be interpreted
   thus: "I don't know how to make things flush against containers, so give me
   a margin big enough to write stuff there." This value is then referenced
