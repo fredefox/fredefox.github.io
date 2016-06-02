@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    display: flex;
+}
+main {
+    margin: auto;
+}
+.indicator {
+    background-color: darkorange;
+    height: 2ch;
+    width: 2ch;
+    float: right;
+}
+.indicator.pulse {
+    background-color: dimgray;
+}
+.foxy-box {
+    width: 40ch;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 1ch;
+    position: relative;
+}
