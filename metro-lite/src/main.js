@@ -1,6 +1,7 @@
 this.metronome = (function() {
     var prev  = performance.now(),
-        tick  = new Audio('assets/Blip.ogg')
+        tick   = new Audio('/metro/assets/tick.mp3'),
+        tock   = new Audio('/metro/assets/tock.mp3'),
         step  = function() {
             tick.play();
         },
@@ -36,9 +37,7 @@ this.metronome = (function() {
             }
         };
         function mkBeat(n) {
-            var tick   = new Audio('/metro/assets/tick.mp3'),
-                tock   = new Audio('/metro/assets/tock.mp3'),
-                curr   = 0,
+            var curr   = 0,
                 sounds = [tick];
             if(n > 1) {
                 var t = Array(n-1).fill(tock);
