@@ -7,8 +7,17 @@
 <body>
   <main>
     <section class="foxy-box">
-        <button onclick="metronome.play()">Play</button>
-        <button onclick="metronome.stop()">Stop</button>
+      <fieldset>
+        <label>bpm</label>
+        <input class="bpm" type="number" value="120" />
+      </fieldset>
+      <fieldset>
+        <label>signature</label>
+        <input class="sig-num" type="number" value="4" />
+        <input class="sig-den" type="number" value="4" />
+      </fieldset>
+      <button onclick="metronome.play()">Play</button>
+      <button onclick="metronome.stop()">Stop</button>
       <object data="/curriculum/assets/fredefox.svg"></object>
     </section>
   </main>

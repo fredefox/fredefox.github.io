@@ -23,13 +23,16 @@ this.metronome = (function() {
     function stopLoop() {
         isLooping = false;
     }
-    var _ = {times: function() {console.error('Not implemented');}}
     function loadConfig() {
+        function getVal(sel) {
+            var e = document.querySelector(sel);
+            return Number(e.value);
+        }
         var config = {
-            bpm: 120,
+            bpm: getVal(".bpm"),
             signature: {
-                numerator: 4,
-                denominator: 4
+                numerator: getVal(".sig-num"),
+                denominator: getVal(".sig-den")
             }
         };
         function mkBeat(n) {
